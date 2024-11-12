@@ -1,0 +1,30 @@
+{# templates/default/index.html.twig #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoicing System</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Invoicing System</h1>
+        <p>Your one-stop solution for managing invoices, payments, and customers efficiently.</p>
+    </header>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>Product Management:</strong> Products can be managed easily.</li>
+            <li><strong>Category Management:</strong> All categories can be managed easily.</li>
+            <li><strong>Customer Management:</strong> All customer details can be managed easily.</li>
+            <li><strong>Invoice Generation:</strong> Generate an invoice with all relevant details, Calculate the total amount after applying discounts and taxes</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p class="alignCenter">&copy; {{ "now"|date("Y") }} Invoicing System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
